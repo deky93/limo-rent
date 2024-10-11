@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Licensing
+- The source code in this repository is licensed under the [MIT License](LICENSE).
+- The images, logos, and assets in the `src/assets` folder are licensed under the [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+- You are not allowed to use these images or logos for commercial purposes without permission.
+

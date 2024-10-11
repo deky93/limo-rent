@@ -1,0 +1,11 @@
+<app-header></app-header>
+<router-outlet></router-outlet>
+<!-- <button class="button vibrating-button" (click)="openWhatsApp()">Open WhatsApp</button> -->
+<div *ngIf="cookiesChecked">
+    <app-cookie-banner *ngIf="!cookiesAccepted"></app-cookie-banner>
+  </div>
+<a class="wa-wrap pulse" (click)="openWhatsApp()">
+    <img src="../assets/img/whatsapp-50.png" alt="">
+</a>
+<!-- <a aria-label="Chat on WhatsApp" href="https://wa.me/1XXXXXXXXXX"><img alt="Chat on WhatsApp" src="WhatsAppButtonGreenLarge.svg" /></a> -->
+<app-footer></app-footer>

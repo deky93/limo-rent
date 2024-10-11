@@ -1,0 +1,7 @@
+.row2{
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    margin-right: -15px;
+    margin-left: -15px;
+}
